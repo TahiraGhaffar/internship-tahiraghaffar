@@ -1,0 +1,12 @@
+Great Cofee shop, When can I order?
+
+Need to practice:
+- Color scheme (Use google to find color contrasts)
+- How to use other codes in our site
+
+Give atleast 2 hours a day to your css to make it more polish. Good things take time. You don't need to code anything from scratch. Just know how to use something on google and how to change it.
+
+Best resources
+- Youtube
+- Github 
+- Codepen
