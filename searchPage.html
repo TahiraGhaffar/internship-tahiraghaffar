@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="searchPage.css">
+
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" > -->
+    
+    
+    <title>Document</title>
+</head>
+
+<body>
+      <div class="search-wrapper">
+        <label for="search" >Search Coffees</label>
+        <input type="search" id="search" data-search>
+      </div>
+
+      
+      <div class="coffee-cards" data-coffee-cards-container>
+
+      <template data-coffee-template>
+        <div class="card">
+          <div class="header" data-header></div>
+          <div class="body" data-body></div>
+          <!-- <div class="img" data-image></div> -->
+            <!-- <button class="btn">Click</button> -->
+            <!-- <button type="submit" id='getData' onclick="GetData()">Get Data</button> -->
+            <!-- <form>
+                <button type="submit" id='getData' onclick="GetData()">Get Data</button>
+            </form> -->
+            <!-- <div class="block" >
+                <br>
+            </div> -->
+            <a href="https://api.sampleapis.com/coffee/hot/${coffee.id}"  target="itemDetail.html"> 
+                <!-- <button onclick="myFunction()" data-btn>Click</button> -->
+                <button type="button" id="btn" >Detail</button>
+            </a>
+        </div>
+        
+      </template>
+
+      </div>
+      
+      <script src="index.js" defer></script>
+      <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script> -->
+</body>
+</html>
